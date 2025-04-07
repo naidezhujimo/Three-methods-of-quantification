@@ -74,7 +74,7 @@ Samples generated from each model (original and quantized variants) are printed.
   - Quantized models show slightly higher perplexity (trade-off for compression).
 - **Memory Footprint**:
   - GPT-2’s original size: ~500MB.
-  - 8-bit quantized model reduces size by ~50%.
+  - 8-bit quantized model reduces size by ~60%.
 
 Example output:
 ```
@@ -88,3 +88,7 @@ Original model: 523,123,456 bytes
 8-bit Quantized Model: 176,527,896 bytes
 Compression Rate: 65.41%
 ```
+
+==== Weight comparison ====
+![1](Figure_1.png)
+![2](Figure_2.png)
